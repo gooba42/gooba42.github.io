@@ -1,15 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-<div class="pure-menu pure-menu-horizontal">
-<ul class="pure-menu-list pure-g">
-    <li class="pure-menu-item pure-u-1-2">Bits</li>
-    <li class="pure-menu-item pure-u-1-2">Bobs</li>
-</ul>
+<style>
+    .custom-restricted-width {
+        /* To limit the menu width to the content of the menu: */
+        display: inline-block;
+        /* Or set the width explicitly: */
+        /* width: 10em; */
+    }
+</style>
+<div class="pure-menu custom-restricted-width">
+    <SPAN class="pure-menu-heading">About Me</SPAN>
+
+    <ul class="pure-menu-list">
+        <li class="pure-menu-item"><a href="#home" class="pure-menu-link">Home</a></li>
+        <li class="pure-menu-item"><a href="#Background" class="pure-menu-link">Background</a></li>
+        <li class="pure-menu-item"><a href="#Experience" class="pure-menu-link">Experience</a></li>
+        <li class="pure-menu-item"><a href="#Education" class="pure-menu-link">Education</a></li>
+
+        <li class="pure-menu-item menu-item-divided pure-menu-selected">
+            <a href="#" class="pure-menu-link">Services</a>
+        </li>
+
+        <li class="pure-menu-item"><a href="#contact" class="pure-menu-link">Contact</a></li>
+    </ul>
 </div>
-</body>
-</html>
